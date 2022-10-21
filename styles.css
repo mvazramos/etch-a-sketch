@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(34, 33, 33);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.sketch-board{
+    display: flex;
+}
