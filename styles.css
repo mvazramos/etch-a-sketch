@@ -1,14 +1,94 @@
 *{
-    background-color: rgb(34, 33, 33);
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    
 }
 
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    flex-direction: column;
+    background-color: rgb(188, 216, 223);
+}
+
+.title{
+    color: rgb(5, 111, 197);
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.drawingCanvas{
+    flex: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    gap:5rem;
+}
+
+
+
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 20rem;
+    border: 3px solid black;
+}
+
+.menu{
+    display:flex;
+    margin: 3px;
+    padding: 1px;
+    margin-bottom: 3rem;
+    border:3px solid black;
+}
+
+
+
+.slider{
+    margin-top: 2rem;
+}
+
+.color-square{
+    min-width: 36px;
+    min-height: 36px;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    max-width: 36px«;
+    max-height: 36px;
+}
+
+#black{
+    background-color: black;
+}
+#red{
+    background-color: red;
 }
 
 .sketch-board{
     display: flex;
+}
+
+.resetButton{
+    background-color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
 }

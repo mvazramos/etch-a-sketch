@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <script src="./app.js" defer></script>
 </head>
 <body>
-    <div class="sketch-board"></div>
+    <div class="title">Etch-a-Sketch</div>
+    <div class="container">
+        <div class="menu-container">
+            <div class="menu">
+                <div class="color-square" id="black"></div>
+                <div class="color-square" id="red"></div>
+                <div class="color-square"> <img id="rgb-color" src="./images/rgb.png"></div>
+            </div>
+            <div class="slider-container">
+                <div class="slider">
+                    <input id="gridSetter" type="range" min="4" max="100" value="16" > 
+                    <p id="gridSize">16</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="drawingCanvas">
+            <div class="sketch-board"></div>
+            <button class="resetButton">Reset Board</button>
+        </div>
+    </div>
 </body>
 </html>
